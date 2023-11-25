@@ -1,0 +1,42 @@
+$pimary-color: #2f80ed;
+$secondary-color: #333333;
+
+html{
+font-family: Roboto,sans-serif;
+}
+
+* {
+color: $secondary-color;
+}
+
+h1 {
+color: $pimary-color;
+margin-bottom: 0.25em;
+}
+
+h2{
+  color:$secondary-color;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom:1em;
+ }
+ h3{
+color: $pimary-color;
+}
+ .contact{
+ margin-bottom: 2em;
+ }
+ .contact{
+   display: flex;
+}
+.experience {
+ display: flex;
+ margin-bottom: 2em;
+ &-date {
+  min-width: 185px; 
+
+}
+
+}
+
+ 
